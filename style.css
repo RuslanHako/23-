@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    margin: 0px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    min-height: 100%;
+    max-width: 1200px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrraper {
+    min-height: 100%;
+    background-color: darkcyan;
+    max-width: 100%;
+    color: rgb(105, 92, 20);
+    text-transform: uppercase;
+}
+
+.felification__img-wrap {
+    max-width: 400px;
+    height: 400px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.felification {
+    height: 60%;
+    width: 100%;
+
+
+}
+
+.line__img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line__left {
+    width: 350px;
+    padding-top: 0px;
+    height: 75px;
+    position: absolute;
+    margin-top: 110px;
+
+}
+
+.line__right {
+    width: 350px;
+    height: 75px;
+    padding-top: 0px;
+    position: absolute;
+    right: 0;
+    margin-top: 110px;
+}
+
+
+.date {
+    font-family: 'Caveat', cursive;
+}
+
+.date__text {
+    font-size: 72px;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.date__desc {
+    font-size: 65px;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.date__headline {
+    font-size: 85px;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.tank__img-left {
+    animation-name: tank;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 170px;
+
+}
+
+@keyframes tank {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(850px);
+    }
+}
+
+.tank__img-right {
+    animation-name: tank-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 170px;
+}
+
+
+@keyframes tank-right {
+    0% {
+        transform: translateX(1779px);
+    }
+
+    100% {
+        transform: translateX(850px);
+    }
+}
